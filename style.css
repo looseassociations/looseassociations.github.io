@@ -64,16 +64,32 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 325px 1fr;
     justify-items: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
 }
 
-.header {
-    grid-row: 1;
-    height: 100%;
+.logo {
+    max-width: 400px;
+    grid-row-start: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    padding: 15px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    opacity: 70%;
+    transition: 0.5s;
+    color: #2a7039;
 }
 
 }

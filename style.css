@@ -1,0 +1,79 @@
+@media only screen and (min-width:830px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.link1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.link2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.link3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.link4 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+}
+
+a:hover {
+    opacity: 70%;
+    transition: 0.5s;
+    color: #2a7039;
+}
+
+}
+
+@media only screen and (max-width:830px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    grid-row: 1;
+    height: 100%;
+}
+
+}

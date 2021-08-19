@@ -36,6 +36,11 @@
         position: relative;
         display: inline-block;
         padding: 18px;
+        font-size: 1.25rem;
+    }
+
+    .social {
+        font-size: 1.25rem;
     }
     
     a {
@@ -44,7 +49,6 @@
         font-family: 'Kosugi Maru', sans-serif;
         font-weight: bold;
         letter-spacing: 2px;
-        font-size: 1.25rem;
     }
     
     a:hover {
@@ -100,7 +104,6 @@ a {
     font-family: 'Kosugi Maru', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 1.3rem;
 }
 
 a:hover {
@@ -124,6 +127,12 @@ p {
 .nav {
     grid-row-start: 3;
     text-align: center;
+    font-size: 1.3rem;
+}
+
+.social {
+    font-size: 1rem;
 }
   
 }
+    

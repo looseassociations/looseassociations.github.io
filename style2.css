@@ -69,26 +69,61 @@
     
     }
     
-    @media only screen and (max-width:830px) {
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-items: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    .header {
-        grid-row: 1;
-        height: 100%;
-    }
-    
-    }
-    
+@media only screen and (max-width:830px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 310px 200px 1fr;
+}
+
+.header {
+    grid-row-start: 1;
+    width:100%;
+    text-align:center;
+}
+
+.logo {
+    padding-top: 50px;
+    max-width: 400px;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    opacity: 70%;
+    transition: 0.5s;
+    color: #2a7039;
+}
+
+.text {
+    grid-row-start: 2;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+p {
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1rem;
+}
+
+.nav {
+    grid-row-start: 3;
+    text-align: center;
+}
+  
+}

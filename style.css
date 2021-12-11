@@ -72,6 +72,8 @@ body {
 .logo {
     max-width: 400px;
     grid-row-start: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 a {

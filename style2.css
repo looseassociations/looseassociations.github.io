@@ -63,12 +63,20 @@
         padding-left: 200px;
         padding-right: 200px;
         padding-top: 50px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
     }
 
     p {
         color: black;
         font-family: 'Kosugi Maru', sans-serif;
         font-size: 1rem;
+    }
+
+    .image {
+        max-width: 550px;
+        padding-bottom: 25px;
     }
     
     }
@@ -82,7 +90,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 325px 200px 1fr;
+    grid-template-rows: 300px 75px 1fr;
 }
 
 .header {
@@ -113,9 +121,12 @@ a:hover {
 }
 
 .text {
-    grid-row-start: 2;
+    grid-row-start: 3;
     padding-right: 50px;
     padding-left: 50px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
 p {
@@ -125,15 +136,18 @@ p {
 }
 
 .nav {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    grid-row-start: 3;
+    grid-row-start: 2;
     text-align: center;
     font-size: 1.3rem;
 }
 
 .social {
     font-size: 1rem;
+}
+
+.image {
+    max-width: 300px;
+    padding-bottom: 25px;
 }
   
 }

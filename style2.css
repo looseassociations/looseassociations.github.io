@@ -17,8 +17,19 @@
     }
 
     .logo {
-        max-width: 400px;
+        max-width: 300px;
         padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+        display:inline-block;
+        margin: 0 auto;
+    }
+
+    .logo2 {
+        max-width: 300px;
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
         display:inline-block;
         margin: 0 auto;
     }
@@ -62,7 +73,7 @@
         grid-row-start: 2;
         padding-left: 200px;
         padding-right: 200px;
-        padding-top: 50px;
+        padding-bottom: 100px;
         display: grid;
         align-items: center;
         justify-items: center;
@@ -74,9 +85,41 @@
         font-size: 1rem;
     }
 
+    b {
+        color: black;
+        font-family: 'Kosugi Maru', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
     .image {
         max-width: 550px;
         padding-bottom: 25px;
+    }
+
+    .small-image {
+        max-width: 150px;
+        padding-bottom: 25px;
+    }
+
+    .items {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item {
+        max-width: 300px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     }
@@ -106,6 +149,10 @@ body {
     margin: 0 auto;
 }
 
+.logo2 {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -124,6 +171,7 @@ a:hover {
     grid-row-start: 3;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 50px;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -133,6 +181,13 @@ p {
     color: black;
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 1rem;
+}
+
+b {
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .nav {
@@ -149,6 +204,24 @@ p {
     max-width: 300px;
     padding-bottom: 25px;
 }
-  
+
+.items {
+    grid-row-start: 3;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
-    
+
+.item {
+    max-width: 300px;
+    padding-bottom: 25px;
+}
+
+.small-image {
+    max-width: 150px;
+    padding-bottom: 25px;
+}  
+}

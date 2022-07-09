@@ -2,6 +2,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("images/loose-characters-desktop-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container {
     display: grid;
@@ -11,11 +14,6 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-}
-
-.logo {
-    grid-column-start: 2;
-    grid-row-start: 2;
 }
 
 .link1 {
@@ -41,10 +39,13 @@ body {
 a {
     text-decoration: none;
     color: black;
+    background-color: white;
     font-family: 'Kosugi Maru', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 1.25rem;
+    padding: 15px;
+    border-style: solid;
 }
 
 a:hover {
@@ -53,32 +54,35 @@ a:hover {
     color: #2a7039;
 }
 
+p {
+    color: black;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1rem;
+}
+
 }
 
 @media only screen and (max-width:830px) {
 body {
     margin: 0;
     padding: 0;
+    background-image: url("images/loose-characters-mobile-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 325px 1fr;
+    grid-template-rows: 375px 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
-
-.logo {
-    max-width: 400px;
-    grid-row-start: 1;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    background-color: white;
     font-family: 'Kosugi Maru', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
@@ -94,4 +98,19 @@ a:hover {
     color: #2a7039;
 }
 
+.link1 {
+    grid-row-start: 2;
+}
+
+.link2 {
+    grid-row-start: 3;
+}
+
+.link3 {
+    grid-row-start: 4;
+}
+
+.link4 {
+    grid-row-start: 5;
+}
 }

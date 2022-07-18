@@ -23,12 +23,7 @@
     }
 
     .logo2 {
-        max-width: 300px;
-        padding-top: 50px;
-        padding-left: 60px;
-        padding-right: 60px;
-        display:inline-block;
-        margin: 0 auto;
+        display: none;
     }
 
     .nav {
@@ -131,7 +126,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 75px 1fr;
+    grid-template-rows: 220px 75px 1fr;
 }
 
 .header {
@@ -141,19 +136,19 @@ body {
 }
 
 .logo {
-    padding-top: 50px;
-    max-width: 325px;
-    display:inline-block;
-    margin: 0 auto;
+    display:none;
 }
 
 .logo2 {
-    display: none;
+    width: 80%;
+    display:inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #469639;
+    color: black;
     font-family: 'Kosugi Maru', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;

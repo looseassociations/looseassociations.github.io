@@ -5,8 +5,8 @@
     }
     .container {
         display: grid;
-        grid-template-columns: 1fr 6fr;
-        grid-template-rows: 300px 1fr;
+        grid-template-columns: 200px 5fr;
+        grid-template-rows: 250px 1fr;
     }
     
     .header {
@@ -17,7 +17,7 @@
     }
 
     .logo {
-        width: 100%;
+        width: 90%;
         display:inline-block;
         margin: 0 auto;
     }
@@ -109,6 +109,13 @@
 
     .item {
         max-width: 300px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .button {
+        max-width: 200px;
         padding-bottom: 25px;
         padding-left: 10px;
         padding-right: 10px;
@@ -209,6 +216,11 @@ b {
 
 .item {
     max-width: 300px;
+    padding-bottom: 25px;
+}
+
+.button {
+    max-width: 200px;
     padding-bottom: 25px;
 }
 

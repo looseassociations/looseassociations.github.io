@@ -17,7 +17,7 @@
     }
 
     .landing-image {
-        width: 100%;
+        width: 50%;
         display:inline-block;
         margin: 0 auto;
     }
@@ -143,7 +143,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1000px 150px 1fr;
+    grid-template-rows: 400px 150px 1fr;
 }
 
 .top-image {
@@ -152,11 +152,7 @@ body {
 }
 
 .landing-image {
-    display:none;
-}
-
-.landing-image2 {
-    width: 100%;
+    width: 400px;
 }
 
 .header {

@@ -5,7 +5,7 @@
     }
     .container {
         display: grid;
-        grid-template-columns: 200px 5fr;
+        grid-template-columns: 5fr;
         grid-template-rows: 250px 1fr;
     }
     
@@ -23,19 +23,16 @@
     }
 
     .nav {
-        grid-column-start: 1;
-        grid-row-start: 2;
-        position: sticky;
         display: block;
         text-align: center;
-        padding-left: 150px;
     }
 
     .navlink {
         position: relative;
         display: inline-block;
-        padding: 18px;
         font-size: 1.25rem;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     
     a {
@@ -67,8 +64,7 @@
     .items {
         grid-column-start: 2;
         grid-row-start: 2;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 75px;
         display: grid;
         align-items: center;
         justify-items: center;

@@ -143,7 +143,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1500px 150px 1fr;
+    grid-template-rows: 1000px 150px 1fr;
 }
 
 .top-image {

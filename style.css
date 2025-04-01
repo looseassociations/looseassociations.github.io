@@ -7,7 +7,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 800px 300px 1fr;
+        grid-template-rows: 300px 1fr;
     }
     
     .top-image {
@@ -27,10 +27,10 @@
     }
 
     .header {
-        grid-row-start: 2;
+        grid-row-start: 1;
         grid-column: 1 / span 2;
-        width:100%;
-        text-align:center;
+        width: 100%;
+        text-align: center;
     }
 
     .logo {
@@ -143,7 +143,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 150px 1fr;
+    grid-template-rows: 150px 1fr;
 }
 
 .top-image {
@@ -152,11 +152,12 @@ body {
 }
 
 .landing-image {
-    width: 400px;
+    padding-top: 100px;
+    width: 500px;
 }
 
 .header {
-    grid-row-start: 2;
+    grid-row-start: 1;
     width:100%;
     text-align:center;
 }

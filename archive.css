@@ -88,13 +88,16 @@
         align-items: center;
         justify-items: end;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .description {
+        grid-row-start: 1;
         grid-column-start: 1;
     }
 
     .purchase {
+        grid-row-start: 1;
         grid-column-start: 2;
     }
 
@@ -105,6 +108,10 @@
         border-radius: 4px;
         text-align: center;
         text-decoration: none;
+    }
+
+    .vid {
+        grid-row-start: 2;
     }
     
     }
